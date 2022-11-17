@@ -104,6 +104,20 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: 90%;
+    background-position-y: 120%;
+}
+
+.hero-1 {
+    
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-x: 20%;
+    background-position-y: 78%;
 }
 
 .hero .left, .hero .right {
@@ -161,6 +175,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 6% 0;
 }
 
 .stat .card {
@@ -177,4 +192,34 @@ section {
 
 .images {
     width: 6%;
+}
+
+.why-us {
+    display: flex;
+    align-items: center;
+
+    background-image: url(/images/bg3.png), url(/images/bg4.png), url(/images/bg5.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 10%, 10%, 30%;
+    background-position-y: 0%, 100%, 100%;
+    background-position-x: 100%, 100%, 0%;
+}
+
+.why-us .left {
+    text-align: center;
+    width: 60%;
+}
+
+.why-us .right {
+    width: 40%;
+}
+
+.why-us .right h6 {
+    margin: 13px 0;
+    line-height: 25px;
+    width: 90%;
+}
+
+.why-us .left img {
+    width: 70%;
 }
