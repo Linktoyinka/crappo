@@ -18,6 +18,12 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
 h6 {
     font-size: 14px;
     font-weight: 400;
@@ -149,4 +155,26 @@ section {
 
 .left button img {
     margin-left: 10px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat .card {
+    width: 35%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.stat .card img, .images {
+    width: 18%;
+    margin-right: 10px;
+}
+
+.images {
+    width: 6%;
 }
