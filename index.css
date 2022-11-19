@@ -325,7 +325,7 @@ section {
     /* background-color: var(--primary-color); */
     border-radius: 20px;
     text-align: center;
-    width: 25%;
+    width: 26%;
     border: 2px solid rgba(128, 128, 128, 0.233);
 }
 
@@ -337,7 +337,7 @@ section {
 
 .stat-1 {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-evenly;
     margin: 3% 0;
 }
