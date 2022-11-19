@@ -38,7 +38,6 @@ body {
     background-color: var(--primary-color);
     font-family: 'Rubik', sans-serif;
     width: 100%;
-    line-height: 30px;
 }
 
 header {
@@ -167,12 +166,14 @@ section {
     width: 100%;
 }
 
-.left button {
+.left button, .stat-1 button {
     display: flex;
     align-items: center;
 }
 
-.left button img {
+
+
+.left button img, .stat-1 button img {
     margin-left: 10px;
 }
 
@@ -297,17 +298,50 @@ section {
 
 .btc-card-img-1 {
     display: flex;
+    justify-content: center;
+}
+
+.img-bg {
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: orange;
     height: 75px;
     width: 75px;
-    border-radius: 50px;
+    border-radius: 100%;
 }
 
 .btc-card {
-    padding: 10%;
+    padding: 40px 10px;
     background-color: var(--primary-color);
     border-radius: 20px;
     text-align: center;
+    width: 30%;
+}
+
+.btc-card p {
+    line-height: 25px;
+    margin: 15px 0;
+}
+
+.stat-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.text h6 {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.btn-ft {
+    display: flex;
+    justify-content: center;
 }
