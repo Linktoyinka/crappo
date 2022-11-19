@@ -8,6 +8,7 @@
 
 :root {
     --primary-color: #0D0D2B;
+    --secondary-color: #2b076e;
     --btn-color: #3671E9;
     --grey-color: rgba(255, 255, 255, 0.1);
 }
@@ -311,23 +312,33 @@ section {
     border-radius: 100%;
 }
 
+.bg-2 {
+    background-color: #1181E8;
+}
+
+.bg-3 {
+    background-color: #59C19C;
+}
+
 .btc-card {
     padding: 40px 10px;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     border-radius: 20px;
     text-align: center;
-    width: 30%;
+    width: 25%;
+    border: 2px solid rgba(128, 128, 128, 0.233);
 }
 
 .btc-card p {
     line-height: 25px;
     margin: 15px 0;
+    color: gray;
 }
 
 .stat-1 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 3% 0;
 }
 
@@ -339,9 +350,43 @@ section {
 .text h6 {
     margin-left: 5px;
     font-size: 10px;
+    color: gray;
+    margin-top: 4px;
+}
+
+.text h3 {
+    color: black;
+    font-weight: 900;
 }
 
 .btn-ft {
     display: flex;
     justify-content: center;
+    height: 50px;
+}
+
+.btn-tn {
+    display: none;
+}
+
+
+
+.btc-card:hover {
+    background-color: var(--secondary-color);
+    border: 2px solid rgba(128, 128, 128, 0);
+
+}
+
+.btc-card:hover .btn-big {
+    display: none;
+}
+
+.btc-card:hover p,
+.btc-card:hover .text h3,
+.btc-card:hover .text h6  {
+    color: white;
+}
+
+.btc-card:hover .btn-tn {
+    display: block;
 }
